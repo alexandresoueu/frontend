@@ -10,9 +10,5 @@ describe("Counting test", () => {
   test('render the title of counter', () => {
     const wrapper = shallow(<App />)
     expect(wrapper.find("h1").text()).toContain("this is counter app")
-
-    // const { getByText } = render(<App />)
-    // const linkElement = getByText("this is couter app")
-    // expect(linkElement).toBeInTheDocument()
   })
 })
