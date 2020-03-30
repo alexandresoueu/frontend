@@ -1,7 +1,7 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { mount } from 'enzyme'
+import Counter from './Counter'
 import App from './App'
-import { shallow } from 'enzyme'
 
 
 
@@ -9,7 +9,7 @@ describe("Counting test", () => {
   let wrapper
 
   beforeEach(() => {
-    wrapper = shallow(<App />)
+    wrapper = mount(<App />)
   })
 
   test('render the title of counter', () => {
