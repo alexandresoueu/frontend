@@ -1,13 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FirstComponent from './components/firstComponent'
-import { GoodAfternoon, GoodEvening } from './components/multiple'
+import Greetings from './components/greetings/greetings'
 
 ReactDOM.render(
   <div>
-    <GoodEvening name="Nemo" />
-    <GoodEvening name="Dori" />
-    <FirstComponent name="Alexandre"/>
+    <Greetings type="Great moments" name="Patch" />
   </div>,
   document.getElementById('root')
 )
