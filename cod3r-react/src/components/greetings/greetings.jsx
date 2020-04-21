@@ -7,6 +7,14 @@ export default class Greetings extends Component {
     name: this.props.name
   }
 
+  constructor(props) {
+    super(props)
+
+    this.setType = this.setType.bind(this)
+    //this.setName = this.setName.bind(this)
+  }
+
+
   setType(event) {
     this.setState({ type: event.target.value})
   }
@@ -21,8 +29,8 @@ export default class Greetings extends Component {
       <div>
         <h1>{ type} | {name }!</h1>
         <hr />
-        <input type='text' value={type} onChange={event => this.setType(event)} />
-        <input type='text' value={name} onChange={event => this.setName(event)} />
+        <input type='text' value={type} onChange={this.setType} />
+        <input type='text' value={name} onChange={ e => this.setName(e) } />
       </div>
     )
   }
