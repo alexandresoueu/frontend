@@ -15,5 +15,4 @@ export default class UserCrud extends Component {
             </Main>
         )
     }
-
 }
