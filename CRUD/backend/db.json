@@ -1,19 +1,9 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Alexandre",
-      "email": "a@alexandre.com"
-    },
-    {
-      "id": 2,
-      "name": "Zaira",
-      "email": "z@zaira.com"
-    },
-    {
-      "name": "Biboc",
-      "email": "biboc@gnone.com",
-      "id": 3
+      "name": "Dogao",
+      "email": "dogao@mal.com",
+      "id": 4
     }
   ]
 }

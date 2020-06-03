@@ -2,7 +2,7 @@ import React from 'react'
 import Main from '../template/Main'
 
 export default props =>
-    <Main icon="home" title="begin" subtitle="Second project in React">
+    <Main icon="home" title="Begin" subtitle="Second project in React">
         <div className="display-4">
             Bem vindo!
         </div>
